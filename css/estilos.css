@@ -1,0 +1,103 @@
+/*import de google fonts*/
+*
+{
+    font-family: "Fira Sans Condensed", sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.grid-container
+ {
+    display:grid;
+    grid-template-columns:177px 1fr;
+    grid-template-rows:90px 104px 250px 1fr;
+    gap:0px;
+}
+    
+.flex-menu
+{
+    display:flex;
+    flex-direction:column;  
+    gap:0px;
+    
+    background-image:url("../assets/img/fondomenucurva.gif");
+    background-size: cover;
+    
+    
+    padding-left: 10px;
+    
+    .listaItem
+    {
+        
+        display:flex;
+        align-items: center;
+            
+        a
+        {
+            padding-left: 5px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            font-size: 8pt;
+            font-weight: bold;
+            color: #990000;
+            text-decoration: none;
+            text-align: center;
+        }
+
+    }        
+    
+    
+}
+
+.panelLateral
+{
+    grid-column: 1/2;
+    grid-row: 3;
+    background-color: #e7e4e4;
+    margin-right: 18px;
+
+    display:flex;
+    flex-direction:column;  
+    gap:0px;
+    align-items: center;
+
+    .imagenPDF
+    {
+        height: 60px;
+        width: 60px;
+        object-fit: none;
+    }
+
+    .linkItem
+    {
+               
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 8pt;
+        font-weight: bold;
+        color: #990000;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .imagenISO
+    {
+        height: 140px;
+        width: 140px;
+        object-fit: none;
+    }
+    
+}
+
+.main
+{
+    grid-column:2/3;
+}
+
+.header,.footer
+{
+    grid-column:1/3;
+}
+
+
+
