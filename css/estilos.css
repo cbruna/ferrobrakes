@@ -128,12 +128,14 @@
     }
 
     @media onlyscreen and(max-width:600px)
-    .mainIntro
     {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        .mainIntro
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
     }
     
     h1
