@@ -125,7 +125,7 @@
         align-items: center;
         justify-content: space-evenly;
         
-        @media onlyscreen and(max-width:600px)
+        @media onlyscreen and(max-width:300px)
         {
             flex-wrap: wrap;
         }
