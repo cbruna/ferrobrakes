@@ -124,7 +124,11 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        flex-wrap: wrap;
+        
+        @media onlyscreen and(max-width:600px)
+        {
+            flex-wrap: wrap;
+        }
     }
     
     h1
